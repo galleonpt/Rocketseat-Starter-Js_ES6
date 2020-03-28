@@ -1,0 +1,18 @@
+Como é uma app pequena o mais provavel é ser so necessaria uma class
+
+Class App -> é a classe responsavel pela nossa aplicaçao(como se fosse o main.c)
+
+resgisterHandlers -> serve para registar os eventos
+  - neste caso é para qnd o user der submit ao form
+
+Pode-se fazer so "new APP" que ele vai correr logo a class completa,
+  nao e preciso instanciar numa variavel visto que nnc vamos usar essa variavel
+
+
+
+axios.creat -> vair criar uma configuracao de axios
+baseURL: -> todas as requisicoes a api vao partir do url que nos passamos,
+  neste caso como so estamos a usar a api do github  entao passamos a api na baseURL
+
+
+setLoading -> metodo para fazer o "carregando!!!" e dps tbm o temos que tirar, daí termos um if/else

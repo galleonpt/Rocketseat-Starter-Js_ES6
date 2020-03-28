@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Funcoes</title>
+  </head>
+
+  <body>
+    
+
+    <script>
+      function Soma(x, y){
+        return x+y
+      }
+
+      function Par(x){
+        if(x%2==0)
+          return true
+        else
+          return false
+      }
+
+      function RetornaSexo(sexo){
+        /*if(sexo=='M')
+          return 'masculino'
+        else if(sexo=='F')
+          return 'feminino'
+        else
+          return 'outro'*/
+
+          switch(sexo){
+            case 'F': 
+              return('feminino')
+              break;
+            case 'M': 
+              return('masculino')
+              break;
+            default:
+              return('outro')
+              break;
+          }
+      }
+
+      function Maior(x, y){
+        if(x>y){
+          return x;
+        }else 
+          return y;
+      }
+
+      console.log(Soma(1,4))
+      console.log(Par(1))
+      console.log(RetornaSexo('F'))
+      console.log(RetornaSexo('M'))
+      console.log(RetornaSexo('akjsbd'))
+
+      console.log(Maior(3,4))
+    </script>
+  </body>
+</html> 

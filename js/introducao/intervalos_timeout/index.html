@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>timeout e intervalos</title>
+  </head>
+
+  <body>
+    <script>
+                /*para estes metodos e necessario ter uma funcao criada*/
+
+      function teste(){
+        console.log('ola mundo')
+      }
+
+      //a cada 1000ms(1s) executa a funcao teste
+      //teem que se passar a funcao sem os () no final pk se tiver ele so executa 1x
+      //sem eles, ele faz referencia a funcao e executa infinitas vezes
+      setInterval(teste, 1000);
+
+      //para funcionar nao pode ter o setinterval(pk como esta em execucao infinita o timeout nnc vai executar)
+      //executa a funcao teste passado 5000ms(5s)
+      //so executa 1x
+      setTimeout(teste, 5000);
+    </script>
+  </body>
+</html> 

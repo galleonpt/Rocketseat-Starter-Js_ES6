@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>variaveis e dados</title>
+  </head>
+
+  <body>
+    
+
+    <script>
+
+      //variaveis simples
+      //os tipos mais usados sao string, inteiros e booleanos
+      var nome='jose';
+      console.log(nome);
+      nome=5;
+      console.log(nome);
+
+      var idade=123;
+      var bool=true;
+      console.log(idade, bool);
+
+      //array
+      var pessoas=[123, 'jose', 'sergio'];
+
+      console.log(pessoas);
+      console.log(pessoas[2]);
+
+      //objeto ou struct
+      var pessoa = {
+        nome : pessoas[1],
+        idade: 19,
+        humano:bool
+      };
+      var pessoa1 = {
+        nome : pessoas[1],
+        idade: 20,
+        humano:false
+      };
+      var pessoa2 = {
+        nome : pessoas[1],
+        idade: 21,
+        humano:bool
+      };
+
+      //array com 3 objetos e mais um array no final
+      var teste=[pessoa, pessoa1, pessoa2, pessoas]
+      console.log(pessoa.nome, pessoa.idade, pessoa.humano);
+      console.log(teste);
+    </script>
+  </body>
+</html>
