@@ -15,6 +15,6 @@
     "dev": "webpack-dev-server --mode=development "
   },
   "dependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^5.2.4"
   }
 }
